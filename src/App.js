@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import DisplayEntries from './Components/DisplayEntries/DisplayEntries';
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-
+      <DisplayEntries parentEntries={entries} />
     </div>
   );
 }
